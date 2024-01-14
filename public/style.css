@@ -60,6 +60,7 @@ html,body{
     /* scale: 1.1; */
     overflow: hidden;
     border: 1px solid white;
+    position: relative;
 }
 .reels-wrapper {
     height: 100vh;
@@ -71,4 +72,29 @@ html,body{
     overflow-x: hidden;
     margin-right: -17px; 
     margin-bottom: -10px;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    right: 20px;
+    bottom: 100px;
+}
+.under-profile{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    font-size: .8rem;
+}
+.under-profile .inner{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.under-profile .follow{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
 }

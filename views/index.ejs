@@ -103,6 +103,20 @@
 
                     <% for(let i=0;i<reel.length;i++){ %>
                         <div class="reel">
+                            <div class="under-profile">
+                                <div class="inner">
+                                    <div><img src="./assets/user.svg" class="svg" width="20px"></div>
+                                    <p>anonymous_user</p>
+                                    <div class="follow">Follow</div>
+                                </div>
+                                
+                            </div>
+                            <div class="side">
+                                <div><img src="assets/like.svg" class="svg"></div>
+                                <div><img src="assets/comment.svg" class="svg"></div>
+                                <div><img src="assets/share.svg" class="svg"></div>
+                                <div><img src="assets/save.svg" class="svg"></div>
+                            </div>
                             <video width="100%" height="100%" loop muted>
                                 <source src="<%- reel[i].link %>" type="video/mp4">
                             </video>
