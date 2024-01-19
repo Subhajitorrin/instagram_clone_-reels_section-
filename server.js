@@ -49,13 +49,13 @@ app.get("/login",(req,res)=>{
   res.render("login")
 })
 
-app.get("/reel",(req,res)=>{
-  reelModel.find({}).then(function(reel){
-    res.render("index",{reel});
-  }).catch(function(err){
-    console.log(err);
-  })
-})
+// app.get("/reel",(req,res)=>{
+//   reelModel.find({}).then(function(reel){
+//     res.render("index",{reel});
+//   }).catch(function(err){
+//     console.log(err);
+//   })
+// })
 
 app.post("/signup",async(req,res)=>{
   const mobemail = req.body.mobemail;
@@ -82,7 +82,12 @@ app.post("/login", async (req, res) => {
   if (tempData.length > 0) {
     const user = tempData[0];
     if (password === user.password) {
-      res.redirect('/reel');
+      // load the reels
+      reelModel.find({}).then(function(reel){
+        res.render("index",{reel});
+      }).catch(function(err){
+        console.log(err);
+      })
     } else {
       res.send('Wrong password!!');
     }
