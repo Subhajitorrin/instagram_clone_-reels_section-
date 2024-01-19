@@ -31,7 +31,7 @@
    ```
 
 5. **Server will be live on:**
-https://localhost:3000
+http://localhost:3000
 
 6. **Stop the server by pressing:**
 ctrl + c in the command prompt or powershell
