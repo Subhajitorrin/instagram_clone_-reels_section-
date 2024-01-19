@@ -22,11 +22,19 @@ app.set('view engine', 'ejs');
 
 // "/" route
 app.get("/",(req,res)=>{
+  res.render("signup")
+})
+
+app.get("/reel",(req,res)=>{
   reelModel.find({}).then(function(reel){
     res.render("index",{reel});
   }).catch(function(err){
     console.log(err);
   })
+})
+
+app.post("/signup",(req,res)=>{
+  
 })
 
 app.listen(port, () => {

@@ -98,3 +98,115 @@ html,body{
     padding: 5px;
     border-radius: 5px;
 }
+/* signup page */
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 17px;
+    flex-direction: column;
+}
+.form{
+    /* height: 48rem; */
+    border: 1px solid rgb(194, 194, 194);
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2px;
+    width: 22rem;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.input-container input{
+    height: 45px;
+    margin: 10px 0;
+    padding-left: 10px ;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 179, 179);
+    background-color: #f1f1f1;
+    outline: none;
+}
+.align{
+    text-align: center;
+}
+.login-facebook{
+    width: 90%;
+}
+.fb-btn{
+    height: 45px;
+    width: 100%;
+    background-color: #0095F6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.signupbtn{
+    width: 90%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CB4F8;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bold{
+    font-weight: bold;
+    color: rgb(151, 151, 151);
+}
+.downtext{
+    font-size: .8rem;
+    color: rgb(118, 118, 118);
+}
+.padding{
+    padding: 10px 0;
+}
+.downform{
+    width: 22rem;
+    border: 1px solid rgb(194, 194, 194);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 4rem;
+    font-size: .9rem;
+    margin-bottom: 10px;
+}
+.downform a{
+    text-decoration: none;
+}
+.getapp img{
+    width: 130px;
+    height: 45px;
+}
+.footer{
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    font-size: .8rem;
+    color: rgb(158, 158, 158);
+}
+.footer p{
+    margin-top: 10px;
+    font-size: .9rem;
+    color: rgb(158, 158, 158);
+}
