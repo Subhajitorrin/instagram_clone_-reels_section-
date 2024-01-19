@@ -4,8 +4,6 @@
 
 ## Getting Started [How to run the website in your pc]
 
-### Prerequisites
-
 1. **Install Node.js:**
    - Download and install Node.js if not installed from [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 
