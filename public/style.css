@@ -210,3 +210,11 @@ html,body{
     font-size: .9rem;
     color: rgb(158, 158, 158);
 }
+.fpass{
+    font-size: .8rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.login{
+    margin-top: 7rem;
+}
